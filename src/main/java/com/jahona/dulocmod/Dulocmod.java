@@ -1,5 +1,6 @@
 package com.jahona.dulocmod;
 
+import com.jahona.dulocmod.registry.ModBlocks;
 import com.jahona.dulocmod.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -10,6 +11,7 @@ public class Dulocmod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerItems();
+        ModBlocks.registerBlocks();
 
     }
 }
